@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TO-DO</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-gray-900 flex justify-center items-center min-h-screen text-gray-200 font-sans">
+<div id="todo-container" class="rounded-lg text-center w-80 p-5 bg-gray-800 shadow-md">
+    <h2 class="text-xl mb-5">To-Do List</h2>
+    <div class="input mb-5">
+        <input type="text" id="todo-text" placeholder="Add new task" class="border-2 border-gray-600 bg-gray-700 rounded-md text-white py-2 px-4 w-full">
+        <input type="number" id="todo-points" placeholder="Points" class="border-2 border-gray-600 bg-gray-700 rounded-md text-white py-2 px-4 w-full mt-2">
+    </div>
+    <button id="addTaskButton" class="bg-gray-700 border-2 border-gray-600 rounded-md py-2 px-4 cursor-pointer transition duration-300 ease-in-out hover:bg-gray-600 text-gray-200">Add</button>
+    <div id="todo-item"></div>
+</div>
+
+<script src="script.js" type="module"></script>
+</body>
+
+</html>
